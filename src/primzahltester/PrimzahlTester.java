@@ -34,7 +34,7 @@ public class PrimzahlTester {
 
                     if ((a % n1) == 0) {
                         p = true; // p ist wahr wenn n Teiler von a ist
-                        break; // brich ab, wenn erster ggT gefunden wurde
+                        break; // brich ab, wenn erster Teiler gefunden wurde
 
                     } else {
                         p = false; // p ist unwahr, wenn n keine Teiler von a ist
@@ -58,7 +58,7 @@ public class PrimzahlTester {
     public static void main(String[] args) {
         // Diese Variable kaennen sie veraendern, um Ihre
         // Implementierung zu testen
-        int x = 99817;
+        int x = 2;
         // Der nachfolgende Quelltext erzeugt nur die Ausgabe
         System.out.print("Ist ");
         System.out.print(x);
